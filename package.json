@@ -1,0 +1,17 @@
+{
+  "name": "mesh-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "@shift",
+  "licence": "MIT",
+  "scripts": {
+    "start": "mesh serve"
+  },
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.82.24",
+    "@graphql-mesh/json-schema": "^0.37.16",
+    "@graphql-mesh/plugin-prometheus": "^0.5.3",
+    "graphql": "^16.6.0",
+    "prom-client": "^14.2.0"
+  }
+}
